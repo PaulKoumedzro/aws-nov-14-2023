@@ -1,0 +1,12 @@
+AWS Command Line Interface allow you to acess the IAM  on the command prompt
+
+To acess the IAM on the cmd,
+download the AWS command line interface
+
+aws --version to check the version
+ aws -configure
+ enter the secret key ID:
+enter the secret access key:
+ define the region
+
+aws iam list-users

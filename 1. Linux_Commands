@@ -1,5 +1,7 @@
 MUST Know commands:
-
+df -h
+sudo su ( to switch to root user)
+sudo apt( to be super user)
 pwd
 $SHELL
 cd

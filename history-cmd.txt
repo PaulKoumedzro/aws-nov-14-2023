@@ -1,0 +1,19 @@
+ 1  sudo apt-get update
+    2  sudo apt-get install apache2 -y
+    3  cd /var/www/html
+    4  ls
+    5  sudo rm index.html
+    6  ls
+    7  sudo nano index.php
+    8  cd ..
+    9  sudo apt-get install mysql-client -y
+   10  mysql -h project-database.cvwwkjmmcvgi.us-east-1.rds.amazonaws.com -u intel -p
+   11  cd /var/www/html
+   12  ls
+   13  sudo nano index.php
+   14  sudo add-apt-repository -y ppa:ondrej/php
+   15  sudo apt install php5.6 mysql-client php5.6-mysqli
+   16  ls
+   17  cd ..
+   18  mysql -h project-database.cvwwkjmmcvgi.us-east-1.rds.amazonaws.com -u intel -p
+   19  history
